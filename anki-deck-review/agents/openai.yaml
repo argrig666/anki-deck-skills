@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anki Deck Review"
+  short_description: "Audit Italian Anki examples and corrections"
+  default_prompt: "Use $anki-deck-review when reviewing or correcting Italian examples in an Anki deck."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anki Note Sync"
+  short_description: "Edit Anki notes with correct sync metadata"
+  default_prompt: "Use $anki-note-sync when changing notes in a local Anki collection."
