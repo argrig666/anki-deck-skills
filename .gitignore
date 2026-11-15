@@ -1,0 +1,8 @@
+.DS_Store
+*.apkg
+*.colpkg
+collection.anki2
+collection.media/
+__pycache__/
+recovery/
+

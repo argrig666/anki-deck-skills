@@ -1,7 +1,21 @@
 # Reusable Anki Card-Creation Skills
 
 This is a portable skill bundle for language-learning Anki work, especially Italian, French,
-and Russian. It captures the durable workflow abstractions available in this project:
+and Russian. It is designed so the complete methodology can be recovered even after losing
+one or more machines. Start with `anki-system/SKILL.md`; it routes work and recovery.
+
+## New machine
+
+1. Restore the collection through AnkiWeb (or a verified Anki backup if needed).
+2. Clone this private repository or open its OneDrive copy.
+3. Run `scripts/bootstrap.sh`.
+4. Open Anki with AnkiConnect enabled and run `scripts/health-check.sh --online`.
+5. On macOS, run `scripts/install-macos-backup-agent.sh` once to mirror the newest automatic
+   Anki backup into the OneDrive recovery folder every day.
+
+See `anki-system/references/recovery.md` for failure scenarios and backup boundaries.
+
+## Included skills
 
 - `anki-core/SKILL.md` — universal note/card engineering and validation
 - `anki-deck-engineering/SKILL.md` — deck structure, note models, imports, exports, and validation
@@ -18,6 +32,7 @@ and Russian. It captures the durable workflow abstractions available in this pro
 - `anki-direct/SKILL.md` — safe direct interaction with a running Anki instance
 - `translation-formatting/SKILL.md` — multiline translation layout and bilingual paragraph formatting
 - `git-verify-and-sync/SKILL.md` — verified Git and GitHub publishing workflow
+- `anki-system/SKILL.md` — entry point, recovery model, task routing, and continuity rules
 
 ## Cross-machine use
 
