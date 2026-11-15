@@ -7,7 +7,7 @@ one or more machines. Start with `anki-system/SKILL.md`; it routes work and reco
 ## New machine
 
 1. Restore the collection through AnkiWeb (or a verified Anki backup if needed).
-2. Clone this private repository or open its OneDrive copy.
+2. Clone this repository or open its OneDrive copy.
 3. Run `scripts/bootstrap.sh`.
 4. Open Anki with AnkiConnect enabled and run `scripts/health-check.sh --online`.
 5. On macOS, run `scripts/install-macos-backup-agent.sh` once to mirror the newest automatic

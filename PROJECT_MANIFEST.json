@@ -2,7 +2,7 @@
   "project": "anki-deck-skills",
   "purpose": "Recoverable Anki deck-building methodology and agent workflows",
   "canonical_remote": "https://github.com/argrig666/anki-deck-skills.git",
-  "visibility": "private",
+  "visibility": "public",
   "entry_skill": "anki-system/SKILL.md",
   "recovery_guide": "anki-system/references/recovery.md",
   "collection_policy": {
